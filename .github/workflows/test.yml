@@ -9,5 +9,5 @@ jobs:
       - name: Checkout repo
         uses: actions/checkout@v3
       
-      - name: "Print current date"
-        run: date
+      - name: Set up MATLAB
+        uses: matlab-actions/setup-matlab@v2
